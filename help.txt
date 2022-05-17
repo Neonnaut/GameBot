@@ -1,0 +1,27 @@
+
+**Commands**
+```
+++sleep
+    For the server owner only. This shuts the bot off.
+
+++speak
+    This returns, "woof!"
+
+++warGame [attacker army count] [attacker RITR] [attacker RGOV] [attacker WILL] [defender army count] [defender RITR] [defender RGOV] [defender WILL]
+
+++warReset
+    This resets the war and ends all wars
+
+++wm [army name] [target location]
+++wm [army name 1] [target location 1] [army name 2] [target location 2]...
+    Moves your army to another location in the map. If the target destination has an enemy army, you attack it.
+
+++wm pass
+++wm wait
+    Passes your turn, but only three passes may happen in a row or the defender wins.
+
+++wm [army name] run
+++wm [army name] escape
+++wm [army name] rout
+    If your mentioned army is on the edge of the map, they may leave the game. You might do this to save them from death.
+```
